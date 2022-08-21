@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    margin: auto;    
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    border: 10px solid rgb(211, 211, 211);
+}
+
+.top{
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    padding-top: 10px;
+    padding-bottom: 20px;   
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.top_name{
+    color: rgb(10, 10, 10);    
+    font-size: 38px; 
+}
+.top_year{
+    color: rgb(10, 10, 10);    
+    font-size: 24px; 
+}
+
+.med{
+    display: flex; 
+
+    
+}
+.med_img{
+    margin: auto 30px  auto auto ;
+}
+.med_quote{
+    color: rgb(211, 211, 211);
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+}
+
+
+.low{
+    background-color: rgb(211, 211, 211);
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.low_about{
+    font-size: 18px;
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
